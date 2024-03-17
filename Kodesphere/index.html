@@ -19,10 +19,10 @@
     <div class="col">
       <div class="item card mb-4 rounded-3 shadow-sm">
         <div class="headname">
-          <p>Fan</p>
+          <p class="headings">Fan</p>
           <p>Control the speed of the fan</p>
+        <img class="image img1" src="https://cdn-icons-png.flaticon.com/512/556/556878.png" width="70px" alt="" >
         </div>
-        <img class="image" src="https://cdn-icons-png.flaticon.com/512/556/556878.png" width="70px" alt="" >
         <div class="card-body">
           <div class="control">
             <label for="fanSpeed"></label>
@@ -34,23 +34,36 @@
     </div>
     <div class="col">
       <div class="item card mb-4 rounded-3 shadow-sm">
-        <p>Bulb</p>
+        <div class="headname">
+        <p class="headings">Bulb</p>
         <p>Turn on or off the bulb</p>
-        <img class="image" src="https://cdn-icons-png.flaticon.com/512/427/427735.png" width="100px" alt="" >
+        <img class="image img2" src="https://cdn-icons-png.flaticon.com/512/427/427735.png" width="100px" alt="" >
+        </div>
         <div class="card-body">
           <div class="control">
-            <label for="lightState"></label>
-            <input class="inputtab" placeholder="State" type="number" id="lightState" min="0" max="1">
-            <button class="button-17" role="button">Toggle Light</button>
+            <label>
+              <input class="toggle-checkbox" type="checkbox">
+              <div class="toggle-slot">
+                <div class="sun-icon-wrapper">
+                  <div class="iconify sun-icon" data-icon="feather-sun" data-inline="false"></div>
+                </div>
+                <div class="toggle-button"></div>
+                <div class="moon-icon-wrapper">
+                  <div class="iconify moon-icon" data-icon="feather-moon" data-inline="false"></div>
+                </div>
+              </div>
+            </label>
         </div>
         </div>
       </div>
     </div>
     <div class="col">
       <div class="item card mb-4 rounded-3 shadow-sm">
-        <p>Led</p>
+        <div class="headname">
+        <p class="headings">Led</p>
         <p> Contol the color of the Led </p>
-        <img class="image" src="https://cdn-icons-png.flaticon.com/512/8534/8534359.png" width="100px" alt="">
+        <img class="image img3" src="https://cdn-icons-png.flaticon.com/512/8534/8534359.png" width="100px" alt="">
+        </div>
         <div class="card-body">
           <div class="control">
             <label for="ledColor"></label>
@@ -63,15 +76,27 @@
     </div>
     <div class="col">
       <div class="item card mb-4 rounded-3 shadow-sm">
-        <p>Air Conditioner</p>
+        <div class="headname">
+        <p class="headings">Air Conditioner</p>
         <p>Control state & temperature of Ac</p>
-        <img class="image" src="https://cdn-icons-png.flaticon.com/512/911/911409.png" width="100px"  alt="" srcset="">
+        <img class="image img4" src="https://cdn-icons-png.flaticon.com/512/911/911409.png" width="100px"  alt="" srcset="">
+        </div>
         <div class="card-body">
           <div class="control">
             <label for="acTemp"></label>
             <input class="inputtab" placeholder="temperature" type="number" id="acTemp" min="16" max="30">
-            <label for="acState"></label>
-            <input class="inputtab" placeholder="state" type="number" id="acState" min="0" max="1">
+            <label>
+              <input class="toggle-checkbox" type="checkbox">
+              <div class="toggle-slot">
+                <div class="sun-icon-wrapper">
+                  <div class="iconify sun-icon" data-icon="feather-sun" data-inline="false"></div>
+                </div>
+                <div class="toggle-button"></div>
+                <div class="moon-icon-wrapper">
+                  <div class="iconify moon-icon" data-icon="feather-moon" data-inline="false"></div>
+                </div>
+              </div>
+            </label>
             <button class="button-17" role="button">Set AC</button>
         </div>
         </div>
