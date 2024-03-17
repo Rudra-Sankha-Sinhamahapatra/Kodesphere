@@ -245,3 +245,9 @@
   text-align: center;
   font-weight: bold;
 }
+.control-bs{
+position: relative;top: 20px;
+}
+.control-f{
+  position: relative;top: 8px;
+}
